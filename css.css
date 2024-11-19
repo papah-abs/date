@@ -1,0 +1,79 @@
+body {
+    background-color: #ffe6f2; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffc0cb; /* Pink container */
+    border: 2px solid #ffb6c1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d63384; /* Deep pink */
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+form {
+    background-color: #fff0f5; /* Floral white background */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #d63384;
+    background-color: #ffe6f2; /* Light pink */
+}
+
+button {
+    background-color: #d63384; /* Deep pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink */
+}
+
+p {
+    color: #6a1b9a; /* Purple for a contrast */
+}
+
+body::before {
+    content: '';
+    background-image: url('https://www.example.com/flower-design.jpg'); /* Replace with actual URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
